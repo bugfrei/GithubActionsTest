@@ -10,4 +10,5 @@ else {
 }
 
 Write-Host $ENV:MyVar
+Write-Host "Node: $(node -v)"
 
