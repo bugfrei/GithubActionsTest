@@ -9,3 +9,5 @@ else {
     Write-Host "Test fehlgeschlagen" -ForegroundColor Red
 }
 
+Write-Host $ENV:MyVar
+
